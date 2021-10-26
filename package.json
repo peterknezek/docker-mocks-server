@@ -1,0 +1,15 @@
+{
+  "name": "docker-mocks-server",
+  "version": "0.0.0",
+  "description": "Mock server based on Node `Express` and `connect-api-mocker`. It can run on localhost or as a Docker image.",
+  "author": "Peter Knezek",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "start": "node ./src/server-mocker.js"
+  },
+  "devDependencies": {
+    "connect-api-mocker": "^1.10.0",
+    "express": "^4.17.1"
+  }
+}
